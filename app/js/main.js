@@ -77,9 +77,28 @@ $(function () {
   $('input[type="file"], select').styler();
 
 
-  var mixer = mixitup('.products__inner-box');
+  var mixer = mixitup('.products__inner-box',{
+    animation: {
+      duration: 110
+    }
+  });
 
   $('.content').css({
-    'paddingTop': $('header').outerHeight() + 'px'
+    'paddingTop': $('header').height() + 'px'
   });
+
+  shuffleLetters(document.querySelector('.search__inner-title'));
+  
+  wow = new WOW(
+    {
+    boxClass:     'wow',      // default
+    animateClass: 'animated', // default
+    offset:       0,          // default
+    mobile:       true,       // default
+    live:         true        // default
+  }
+  )
+  wow.init();
+
+  $('body').stellar();
 });

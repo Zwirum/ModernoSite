@@ -18,7 +18,8 @@ body {
 }
 .content {
     flex: 1 0 auto;
-    background-color: $grey;
+    background-color: $grey; 
+    padding-top: 150px;
 }
 .footer {
 	flex: 0 0 auto;
@@ -58,6 +59,8 @@ body{
     font-size: 36px;
     line-height: 60px;
     margin-bottom: 30px;
+    animation-name: fadeIn;
+    animation-duration: 0.5s;
 }
 .rate-star{
     display: inline-block;

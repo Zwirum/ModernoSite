@@ -62,6 +62,8 @@ gulp.task('script', function(){
                 'node_modules/@fancyapps/ui/dist/fancybox.umd.js',
                 'node_modules/jquery-form-styler/dist/jquery.formstyler.js',
                 'node_modules/wow.js/dist/wow.js',
+                'node_modules/shuffle-letters/dist/shuffle-letters.umd.js',
+                'node_modules/stellar.jquery/jquery.stellar.js',
             ])
             .pipe(concat('libs.min.js'))
             .pipe(uglify())

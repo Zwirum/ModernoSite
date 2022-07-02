@@ -25,7 +25,9 @@
     "normalize.css": "^8.0.1",
     "rateyo": "^2.3.5",
     "sass": "^1.53.0",
+    "shuffle-letters": "^1.0.2",
     "slick-carousel": "^1.8.1",
+    "stellar.jquery": "^0.6.5",
     "wow.js": "^1.2.2"
   }
 }
