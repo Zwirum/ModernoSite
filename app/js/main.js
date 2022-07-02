@@ -89,6 +89,17 @@ $(function () {
 
   shuffleLetters(document.querySelector('.search__inner-title'));
   
+  let authorShuffleLettersVar = true;
+
+  $(window).scroll(function(){
+    if($(this).scrollTop() > ($('.author').offset().top - 400)){
+      if(authorShuffleLettersVar == true){
+        shuffleLetters(document.querySelector('.author__title > span'));
+        authorShuffleLettersVar = false;
+      };
+    };
+  });
+  
   wow = new WOW(
     {
     boxClass:     'wow',      // default
