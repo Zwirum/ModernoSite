@@ -14,202 +14,15 @@
 <body>
     <div class="wrapper">
         <div class="content">
-            <header class="header header__fixed">
-                <div class="header__top">
-                    <div class="container">
-                        <div class="header__top-inner">
-                            <div class="header__logo">
-                                <a href="#">
-                                    <img src="images/logo.png" alt="">
-                                </a>
-                            </div>
-                            <div class="header__text">
-                                <a href="#">
-                                    <span>Need help?</span>
-                                </a>
-                                Talk to an expert:
-                                <a class="header__phone" href="tel:61383766284">+61 3 8376 6284</a>
-                            </div>
+            
+            <?php include 'inc/header.inc.php';?>
 
-                            <div class="header__box">
-
-                                <div class="notification__box header__btn-login--off">
-                                    <a class="notification header__circle icon-bell-o active" href="#">
-                                        <span>8</span>
-                                    </a>
-                                    <div class="basket__menu notification__menu">
-                                        <a href="#" class="basket__item icon-bell-o icons-color">
-                                            <img class="basket__images" src="images/content/message.jpg" alt="">
-                                            <div class="basket__info">
-                                                <div class="basket__info-thema">Need WP Help!</div>
-                                                <div class="basket__info-date">26 Nov, 2016</div>
-                                            </div>
-                                        </a>
-                                        <a href="#" class="basket__item icon-bell-o">
-                                            <img class="basket__images" src="images/content/message.jpg" alt="">
-                                            <div class="basket__info">
-                                                <div class="basket__info-thema">Need WP Help!</div>
-                                                <div class="basket__info-date">26 Nov, 2016</div>
-                                            </div>
-                                        </a>
-                                        <a href="#" class="basket__item icon-bell-o">
-                                            <img class="basket__images" src="images/content/message.jpg" alt="">
-                                            <div class="basket__info">
-                                                <div class="basket__info-thema">Need WP Help!</div>
-                                                <div class="basket__info-date">26 Nov, 2016</div>
-                                            </div>
-                                        </a>
-                                    </div>
-                                </div>
-
-                                <div class="message__box header__btn-login--off">
-                                    <a class="message header__circle icon-envelope-o active" href="#">
-                                        <span>5</span>
-                                    </a>
-                                    <div class="basket__menu message__menu">
-                                        <a href="#" class="basket__item icon-envelope-o icons-color">
-                                            <img class="basket__images" src="images/content/message.jpg" alt="">
-                                            <div class="basket__info">
-                                                <div class="basket__info-name">Kazi Fahim</div>
-                                                <div class="basket__info-thema">Need WP Help!</div>
-                                                <div class="basket__info-date">26 Nov, 2016</div>
-                                            </div>
-                                        </a>
-                                        <a href="#" class="basket__item icon-envelope-o">
-                                            <img class="basket__images" src="images/content/message.jpg" alt="">
-                                            <div class="basket__info">
-                                                <div class="basket__info-name">Kazi Fahim</div>
-                                                <div class="basket__info-thema">Need WP Help!</div>
-                                                <div class="basket__info-date">26 Nov, 2016</div>
-                                            </div>
-                                        </a>
-                                        <a href="#" class="basket__item icon-reply">
-                                            <img class="basket__images" src="images/content/message.jpg" alt="">
-                                            <div class="basket__info">
-                                                <div class="basket__info-name">Kazi Fahim</div>
-                                                <div class="basket__info-thema">Need WP Help!</div>
-                                                <div class="basket__info-date">26 Nov, 2016</div>
-                                            </div>
-                                        </a>
-                                    </div>
-                                </div>
-
-                                <div class="basket__box">
-                                    <a class="basket header__circle icon-shopping-cart active" href="#">
-                                        <span>8</span>
-                                    </a>
-                                    <div class="basket__menu">
-                                        <div class="basket__item">
-                                            <img class="basket__images" src="images/content/basket.jpg" alt="">
-                                            <div class="basket__info">
-                                                <div class="basket__info-name">Grand Ballet</div>
-                                                <div class="basket__info-thema">WordPress</div>
-                                                <div class="basket__info-price">$59</div>
-                                            </div>
-                                        </div>
-                                        <div class="basket__item">
-                                            <img class="basket__images" src="images/content/basket.jpg" alt="">
-                                            <div class="basket__info">
-                                                <div class="basket__info-name">Grand Ballet</div>
-                                                <div class="basket__info-thema">WordPress</div>
-                                                <div class="basket__info-price">$59</div>
-                                            </div>
-                                        </div>
-                                        <div class="basket__bottom">
-                                            <div class="basket__title">
-                                                <div class="basket__title-text">Total</div>
-                                                <div class="basket__title-total">$118</div>
-                                            </div>
-                                            <a class="basket__btn" href="#">Go to Cart</a>
-                                            <a class="basket__btn basket__btn-checkout" href="#">Go to Checkout</a>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="user__box header__btn-login--off">
-                                    <a class="user" href="#">
-                                        <div class="user__inner">
-                                            <div class="user__images">
-                                                <img src="images/content/user-login.jpg" alt="">
-                                            </div>
-                                            <div class="user__info">
-                                                <div class="user__name">Mike Hussy</div>
-                                                <div class="user__cash">$171.00</div>
-                                            </div>
-                                        </div>
-                                    </a>
-                                    <div class="user__menu">
-                                        <ul> 
-                                            <li><a class="angle-right" href="#">Portfolio</a></li>
-                                            <li><a class="angle-right" href="#">Profile Page</a></li>
-                                            <li><a class="angle-right" href="#">Account Setting</a></li>
-                                            <li><a class="angle-right" href="#">Downloads</a></li>
-                                            <li><a class="angle-right" href="#">Wishlist</a></li>
-                                            <li><a class="angle-right" href="#">Upload Item</a></li>
-                                            <li><a class="angle-right" href="#">Statement</a></li>
-                                            <li><a class="angle-right" href="#">Withdraws</a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <a class="header__btn header__btn-login" data-fancybox data-src="#modal"
-                                    href="javascript:;">login</a>
-                                <a class="header__btn header__btn-logout header__btn-login--off" href="#">logout</a>
-                                <a class="header__btn header__btn-register" href="#">Register</a>
-                            </div>
-                            <div class="header__btn-menu icon-user"></div>
-                        </div>
-                    </div>
-                </div>
-                <div class="header__menu">
-                    <div class="container">
-                        <nav class="menu">
-                            <div class="menu__btn">
-                                <div></div>
-                                <div></div>
-                                <div></div>
-                            </div>
-                            <ul class="menu__list">
-                                <li><a class="link__effect" href="index.html">Home</a></li>
-                                <li><a class="link__effect" href="about.html">About</a></li>
-                                <li><a class="link__effect" href="#">WordPress</a></li>
-                                <li><a class="link__effect" href="#">Joomla</a></li>
-                                <li><a class="link__effect" href="#">PSD</a></li>
-                                <li><a class="link__effect" href="#">Plugins</a></li>
-                                <li><a class="link__effect" href="#">Components</a></li>
-                                <li><a class="link__effect" href="#">Pages</a></li>
-                                <li><a class="link__effect" href="contact.html">Contact</a></li>
-                                <li><a class="link__effect" href="#">Help</a></li>
-                            </ul>
-                        </nav>
-                    </div>
-                </div>
-            </header>
-
-            <section class="search" style="background-image: url(images/search-bg.jpg);">
-                <div class="container">
-                    <div class="search__inner">
-                        <div class="search__inner-title wow">
-                            Welcome To Foxtar Market Place!
-                        </div>
-                        <div class="search__inner-text">
-                            Premium WordPress Themes, Web Templates and Many More ...
-                        </div>
-                        <div class="search__inner-form">
-                            <form>
-                                <input type="text" placeholder="Search Your Keywords . . ." required>
-                                <button type="submit">
-                                    <img src="images/icons/search.png" alt="">
-                                </button>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-            </section>
+            <?php include 'inc/search-section-full.inc.php';?>
 
             <section class="products">
                 <div class="products__wrapper">
                     <div class="container-fluid">
-                        <div class="products__title title ">
+                        <div class="products__title title wow" data-wow-offset="300">
                             Let’s Check Out Our Newest Release Prodcuts
                         </div>
                         <div class="products__inner">
@@ -224,9 +37,9 @@
                         </div>
                         <div class="products__inner-box">
 
-                            <div class="product__item wow mix category-wordpress category-new" data-order="1">
-                                <a class="product__item-img"
-                                    style="background-image: url(images/content/product-item.jpg);" href="#"></a>
+
+                            <div class="product__item mix category-wordpress category-new" data-order="1">
+                                <a class="product__item-img wow" style="background-image: url(images/content/product-item.jpg);" href="product-page.php"></a>
                                 <div class="product__item-content">
                                     <div class="product__item-name">
                                         <a class="product__item-title" href="#">
@@ -252,9 +65,9 @@
                                 </div>
                             </div>
 
-                            <div class="product__item wow mix category-component" data-order="2">
-                                <a class="product__item-img"
-                                    style="background-image: url(images/content/product-item.jpg);" href="#"></a>
+                            <div class="product__item mix category-component" data-order="2">
+                                <a class="product__item-img wow"
+                                    style="background-image: url(images/content/product-item.jpg);" href="product-page.php"></a>
                                 <div class="product__item-content">
                                     <div class="product__item-name">
                                         <a class="product__item-title" href="#">
@@ -280,9 +93,9 @@
                                 </div>
                             </div>
 
-                            <div class="product__item wow mix category-plugins" data-order="3">
-                                <a class="product__item-img"
-                                    style="background-image: url(images/content/product-item.jpg);" href="#"></a>
+                            <div class="product__item mix category-plugins" data-order="3">
+                                <a class="product__item-img wow"
+                                    style="background-image: url(images/content/product-item.jpg);" href="product-page.php"></a>
                                 <div class="product__item-content">
                                     <div class="product__item-name">
                                         <a class="product__item-title" href="#">
@@ -308,9 +121,9 @@
                                 </div>
                             </div>
 
-                            <div class="product__item wow mix category-psd category-new" data-order="4">
-                                <a class="product__item-img"
-                                    style="background-image: url(images/content/product-item.jpg);" href="#"></a>
+                            <div class="product__item mix category-psd category-new" data-order="4">
+                                <a class="product__item-img wow"
+                                    style="background-image: url(images/content/product-item.jpg);" href="product-page.php"></a>
                                 <div class="product__item-content">
                                     <div class="product__item-name">
                                         <a class="product__item-title" href="#">
@@ -336,9 +149,9 @@
                                 </div>
                             </div>
 
-                            <div class="product__item wow mix category-wordpress" data-order="5">
-                                <a class="product__item-img"
-                                    style="background-image: url(images/content/product-item.jpg);" href="#"></a>
+                            <div class="product__item mix category-wordpress" data-order="5">
+                                <a class="product__item-img wow"
+                                    style="background-image: url(images/content/product-item.jpg);" href="product-page.php"></a>
                                 <div class="product__item-content">
                                     <div class="product__item-name">
                                         <a class="product__item-title" href="#">
@@ -364,9 +177,9 @@
                                 </div>
                             </div>
 
-                            <div class="product__item wow mix category-joomla category-popular" data-order="6">
-                                <a class="product__item-img"
-                                    style="background-image: url(images/content/product-item.jpg);" href="#"></a>
+                            <div class="product__item mix category-joomla category-popular" data-order="6">
+                                <a class="product__item-img wow"
+                                    style="background-image: url(images/content/product-item.jpg);" href="product-page.php"></a>
                                 <div class="product__item-content">
                                     <div class="product__item-name">
                                         <a class="product__item-title" href="#">
@@ -392,9 +205,9 @@
                                 </div>
                             </div>
 
-                            <div class="product__item wow mix category-psd category-popular" data-order="7">
-                                <a class="product__item-img"
-                                    style="background-image: url(images/content/product-item.jpg);" href="#"></a>
+                            <div class="product__item mix category-psd category-popular" data-order="7">
+                                <a class="product__item-img wow"
+                                    style="background-image: url(images/content/product-item.jpg);" href="product-page.php"></a>
                                 <div class="product__item-content">
                                     <div class="product__item-name">
                                         <a class="product__item-title" href="#">
@@ -420,9 +233,9 @@
                                 </div>
                             </div>
 
-                            <div class="product__item wow mix category-wordpress" data-order="8">
-                                <a class="product__item-img"
-                                    style="background-image: url(images/content/product-item.jpg);" href="#"></a>
+                            <div class="product__item mix category-wordpress" data-order="8">
+                                <a class="product__item-img wow"
+                                    style="background-image: url(images/content/product-item.jpg);" href="product-page.php"></a>
                                 <div class="product__item-content">
                                     <div class="product__item-name">
                                         <a class="product__item-title" href="#">
@@ -464,9 +277,9 @@
                         </div>
                         <div class="product-slider__inner">
 
-                            <div class="product__item wow">
-                                <a class="product__item-img"
-                                    style="background-image: url(images/content/product-item.jpg);" href="#"></a>
+                            <div class="product__item">
+                                <a class="product__item-img wow"
+                                    style="background-image: url(images/content/product-item.jpg);" href="product-page.php"></a>
                                 <div class="product__item-content">
                                     <div class="product__item-name">
                                         <a class="product__item-title" href="#">
@@ -491,9 +304,9 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="product__item wow">
-                                <a class="product__item-img"
-                                    style="background-image: url(images/content/product-item.jpg);" href="#"></a>
+                            <div class="product__item ">
+                                <a class="product__item-img wow"
+                                    style="background-image: url(images/content/product-item.jpg);" href="product-page.php"></a>
                                 <div class="product__item-content">
                                     <div class="product__item-name">
                                         <a class="product__item-title" href="#">
@@ -518,9 +331,9 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="product__item wow">
-                                <a class="product__item-img"
-                                    style="background-image: url(images/content/product-item.jpg);" href="#"></a>
+                            <div class="product__item ">
+                                <a class="product__item-img wow"
+                                    style="background-image: url(images/content/product-item.jpg);" href="product-page.php"></a>
                                 <div class="product__item-content">
                                     <div class="product__item-name">
                                         <a class="product__item-title" href="#">
@@ -545,9 +358,9 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="product__item wow">
-                                <a class="product__item-img"
-                                    style="background-image: url(images/content/product-item.jpg);" href="#"></a>
+                            <div class="product__item">
+                                <a class="product__item-img  wow"
+                                    style="background-image: url(images/content/product-item.jpg);" href="product-page.php"></a>
                                 <div class="product__item-content">
                                     <div class="product__item-name">
                                         <a class="product__item-title" href="#">
@@ -572,9 +385,9 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="product__item wow">
-                                <a class="product__item-img"
-                                    style="background-image: url(images/content/product-item.jpg);" href="#"></a>
+                            <div class="product__item">
+                                <a class="product__item-img wow"
+                                    style="background-image: url(images/content/product-item.jpg);" href="product-page.php"></a>
                                 <div class="product__item-content">
                                     <div class="product__item-name">
                                         <a class="product__item-title" href="#">
@@ -599,9 +412,9 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="product__item wow">
-                                <a class="product__item-img"
-                                    style="background-image: url(images/content/product-item.jpg);" href="#"></a>
+                            <div class="product__item ">
+                                <a class="product__item-img wow"
+                                    style="background-image: url(images/content/product-item.jpg);" href="product-page.php"></a>
                                 <div class="product__item-content">
                                     <div class="product__item-name">
                                         <a class="product__item-title" href="#">
@@ -626,9 +439,9 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="product__item wow">
-                                <a class="product__item-img"
-                                    style="background-image: url(images/content/product-item.jpg);" href="#"></a>
+                            <div class="product__item">
+                                <a class="product__item-img wow"
+                                    style="background-image: url(images/content/product-item.jpg);" href="product-page.php"></a>
                                 <div class="product__item-content">
                                     <div class="product__item-name">
                                         <a class="product__item-title" href="#">
@@ -653,9 +466,9 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="product__item wow">
-                                <a class="product__item-img"
-                                    style="background-image: url(images/content/product-item.jpg);" href="#"></a>
+                            <div class="product__item">
+                                <a class="product__item-img wow"
+                                    style="background-image: url(images/content/product-item.jpg);" href="product-page.php"></a>
                                 <div class="product__item-content">
                                     <div class="product__item-name">
                                         <a class="product__item-title" href="#">
@@ -680,9 +493,9 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="product__item wow">
-                                <a class="product__item-img"
-                                    style="background-image: url(images/content/product-item.jpg);" href="#"></a>
+                            <div class="product__item ">
+                                <a class="product__item-img wow"
+                                    style="background-image: url(images/content/product-item.jpg);" href="product-page.php"></a>
                                 <div class="product__item-content">
                                     <div class="product__item-name">
                                         <a class="product__item-title" href="#">
@@ -707,9 +520,9 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="product__item wow">
+                            <div class="product__item">
                                 <a class="product__item-img"
-                                    style="background-image: url(images/content/product-item.jpg);" href="#"></a>
+                                    style="background-image: url(images/content/product-item.jpg);" href="product-page.php"></a>
                                 <div class="product__item-content">
                                     <div class="product__item-name">
                                         <a class="product__item-title" href="#">
@@ -734,9 +547,9 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="product__item wow">
-                                <a class="product__item-img"
-                                    style="background-image: url(images/content/product-item.jpg);" href="#"></a>
+                            <div class="product__item ">
+                                <a class="product__item-img wow"
+                                    style="background-image: url(images/content/product-item.jpg);" href="product-page.php"></a>
                                 <div class="product__item-content">
                                     <div class="product__item-name">
                                         <a class="product__item-title" href="#">
@@ -761,9 +574,9 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="product__item wow">
-                                <a class="product__item-img"
-                                    style="background-image: url(images/content/product-item.jpg);" href="#"></a>
+                            <div class="product__item">
+                                <a class="product__item-img wow"
+                                    style="background-image: url(images/content/product-item.jpg);" href="product-page.php"></a>
                                 <div class="product__item-content">
                                     <div class="product__item-name">
                                         <a class="product__item-title" href="#">
@@ -788,9 +601,9 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="product__item wow">
-                                <a class="product__item-img"
-                                    style="background-image: url(images/content/product-item.jpg);" href="#"></a>
+                            <div class="product__item ">
+                                <a class="product__item-img wow"
+                                    style="background-image: url(images/content/product-item.jpg);" href="product-page.php"></a>
                                 <div class="product__item-content">
                                     <div class="product__item-name">
                                         <a class="product__item-title" href="#">
@@ -815,9 +628,9 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="product__item wow">
-                                <a class="product__item-img"
-                                    style="background-image: url(images/content/product-item.jpg);" href="#"></a>
+                            <div class="product__item ">
+                                <a class="product__item-img wow"
+                                    style="background-image: url(images/content/product-item.jpg);" href="product-page.php"></a>
                                 <div class="product__item-content">
                                     <div class="product__item-name">
                                         <a class="product__item-title" href="#">
@@ -842,9 +655,9 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="product__item wow">
-                                <a class="product__item-img"
-                                    style="background-image: url(images/content/product-item.jpg);" href="#"></a>
+                            <div class="product__item">
+                                <a class="product__item-img wow"
+                                    style="background-image: url(images/content/product-item.jpg);" href="product-page.php"></a>
                                 <div class="product__item-content">
                                     <div class="product__item-name">
                                         <a class="product__item-title" href="#">
@@ -869,9 +682,9 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="product__item wow">
-                                <a class="product__item-img"
-                                    style="background-image: url(images/content/product-item.jpg);" href="#"></a>
+                            <div class="product__item ">
+                                <a class="product__item-img wow"
+                                    style="background-image: url(images/content/product-item.jpg);" href="product-page.php"></a>
                                 <div class="product__item-content">
                                     <div class="product__item-name">
                                         <a class="product__item-title" href="#">
@@ -1053,92 +866,11 @@
 
         </div>
 
+        <?php include 'inc/footer.inc.php';?>
 
-        <footer class="footer">
-            <div class="footer__content">
-                <div class="container">
-                    <div class="footer__inner">
-                        <div class="footer__col footer__col-adress">
-                            <div class="footer__col-title">About Company</div>
-                            <div class="footer__col-text">
-                                Praesent vel rutrum purus. Nam vel dui eu risus duis dignissim digniSuspen disse.Fusce
-                                sit amet urna iat.Praesent vel rutrum purus.
-                            </div>
-                            <div class="footer__info">
-                                PO Box 16122 Collins Street West Victoria 8007 Australia
-                            </div>
-                            <a href="tel:61383766284" class="footer__info footer__info-phone">
-                                +61 3 8376 6284
-                            </a>
-                        </div>
-                        <div class="footer__col footer__col-menu">
-                            <div class="footer__col-title">Join Our Community </div>
-                            <ul class="footer__col-list">
-                                <li><a class="link__effect" href="#">Home</a></li>
-                                <li><a class="link__effect" href="#">Forums</a></li>
-                                <li><a class="link__effect" href="#">Become an Author</a></li>
-                                <li><a class="link__effect" href="#">Community Meetups</a></li>
-                                <li><a class="link__effect" href="#">Become an Affiliate</a></li>
-                            </ul>
-                        </div>
-                        <div class="footer__col footer__col-menu">
-                            <div class="footer__col-title">Need Help?</div>
-                            <ul class="footer__col-list">
-                                <li><a class="link__effect" href="#">Help Center</a></li>
-                                <li><a class="link__effect" href="#">Foxtar Market Terms</a></li>
-                                <li><a class="link__effect" href="#">Author Terms</a></li>
-                                <li><a class="link__effect" href="#">Foxtar Licenses</a></li>
-                                <li><a class="link__effect" href="#">Contact Us</a></li>
-                            </ul>
-                        </div>
-                        <div class="footer__col footer__col-social">
-                            <div class="footer__col-title">Follow Us On</div>
-                            <ul class="footer__social-link">
-                                <li><a class="link-facebook" href="#"></a></li>
-                                <li><a class="link-twitter" href="#"></a></li>
-                                <li><a class="link-youtube" href="#"></a></li>
-                                <li><a class="link-pinterest" href="#"></a></li>
-                                <li><a class="link-linledin" href="#"></a></li>
-                            </ul>
-                            <div class="footer__form">
-                                <div class="footer__form-title">
-                                    Newsletter Sign Up!
-                                </div>
-                                <form>
-                                    <input type="text" placeholder="E-mail Address">
-                                    <button type="submit"></button>
-                                </form>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="footer__copy">
-                <div class="container">
-                    <div class="footer__copy-text">
-                        © 2017 Foxtar market place. Trademarks and brands are the property of their respective owners.
-                    </div>
-                </div>
-            </div>
-        </footer>
     </div>
 
-    <div id="modal">
-        <div class="modal__login-wrapper">
-            <div class="modal__login-title">Login</div>
-            <form>
-                <label class="login__label-name">
-                    <input type="text" placeholder="Name" required>
-                </label>
-                <label class="login__label-pass">
-                    <input type="text" placeholder="Password" required>
-                </label>
-                <button type="submit">submit</button>
-                <a class="create-acc" href="#">Creat An Account?</a>
-                <a class="lost-pass" href="#">Lost Password?</a>
-            </form>
-        </div>
-    </div>
+    <?php include 'inc/modal.inc.php';?>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="js/libs.min.js"></script>

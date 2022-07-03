@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,197 +10,14 @@
     <link rel="stylesheet" href="css/libs.min.css">
     <link rel="stylesheet" href="css/style.min.css">
 </head>
+
 <body>
     <div class="wrapper">
         <div class="content page-content">
 
-            <header class="header">
-                <div class="header__top">
-                    <div class="container">
-                        <div class="header__top-inner">
-                            <div class="header__logo">
-                                <a href="#">
-                                    <img src="images/logo.png" alt="">
-                                </a>
-                            </div> 
-                            <div class="header__text">
-                                    <a href="#">
-                                        <span>Need help?</span>
-                                    </a> 
-                                    Talk to an expert: 
-                                    <a class="header__phone" href="tel:61383766284">+61 3 8376 6284</a> 
-                            </div>
+            <?php include 'inc/header.inc.php'; ?>
 
-                            <div class="header__box">
-
-                                <div class="notification__box">
-                                    <a class="notification header__circle icon-bell-o active" href="#">
-                                        <span>8</span>
-                                    </a>   
-                                    <div class="basket__menu notification__menu">
-                                        <a href="#" class="basket__item icon-bell-o icons-color">
-                                            <img class="basket__images" src="images/content/message.jpg" alt="">
-                                            <div class="basket__info">
-                                                <div class="basket__info-thema">Need WP Help!</div>
-                                                <div class="basket__info-date">26 Nov, 2016</div>
-                                            </div>
-                                        </a>
-                                        <a href="#" class="basket__item icon-bell-o">
-                                            <img class="basket__images" src="images/content/message.jpg" alt="">
-                                            <div class="basket__info">
-                                                <div class="basket__info-thema">Need WP Help!</div>
-                                                <div class="basket__info-date">26 Nov, 2016</div>
-                                            </div>
-                                        </a>
-                                        <a href="#" class="basket__item icon-bell-o">
-                                            <img class="basket__images" src="images/content/message.jpg" alt="">
-                                            <div class="basket__info">
-                                                <div class="basket__info-thema">Need WP Help!</div>
-                                                <div class="basket__info-date">26 Nov, 2016</div>
-                                            </div>
-                                        </a>
-                                    </div>                                 
-                                </div>
-
-                                <div class="message__box">
-                                    <a class="message header__circle icon-envelope-o active" href="#">
-                                        <span>5</span>
-                                    </a>    
-                                    <div class="basket__menu message__menu">
-                                        <a href="#" class="basket__item icon-envelope-o icons-color">
-                                            <img class="basket__images" src="images/content/message.jpg" alt="">
-                                            <div class="basket__info">
-                                                <div class="basket__info-name">Kazi Fahim</div>
-                                                <div class="basket__info-thema">Need WP Help!</div>
-                                                <div class="basket__info-date">26 Nov, 2016</div>
-                                            </div>
-                                        </a>
-                                        <a href="#" class="basket__item icon-envelope-o">
-                                            <img class="basket__images" src="images/content/message.jpg" alt="">
-                                            <div class="basket__info">
-                                                <div class="basket__info-name">Kazi Fahim</div>
-                                                <div class="basket__info-thema">Need WP Help!</div>
-                                                <div class="basket__info-date">26 Nov, 2016</div>
-                                            </div>
-                                        </a>
-                                        <a href="#" class="basket__item icon-reply">
-                                            <img class="basket__images" src="images/content/message.jpg" alt="">
-                                            <div class="basket__info">
-                                                <div class="basket__info-name">Kazi Fahim</div>
-                                                <div class="basket__info-thema">Need WP Help!</div>
-                                                <div class="basket__info-date">26 Nov, 2016</div>
-                                            </div>
-                                        </a>
-                                    </div>
-                                </div>
-
-                                <div class="basket__box">
-                                    <a class="basket header__circle icon-shopping-cart active" href="#">
-                                        <span>8</span>
-                                    </a>
-                                    <div class="basket__menu">
-                                        <div class="basket__item">
-                                            <img class="basket__images" src="images/content/basket.jpg" alt="">
-                                            <div class="basket__info">
-                                                <div class="basket__info-name">Grand Ballet</div>
-                                                <div class="basket__info-thema">WordPress</div>
-                                                <div class="basket__info-price">$59</div>
-                                            </div>
-                                        </div>
-                                        <div class="basket__item">
-                                            <img class="basket__images" src="images/content/basket.jpg" alt="">
-                                            <div class="basket__info">
-                                                <div class="basket__info-name">Grand Ballet</div>
-                                                <div class="basket__info-thema">WordPress</div>
-                                                <div class="basket__info-price">$59</div>
-                                            </div>
-                                        </div>
-                                        <div class="basket__bottom">
-                                            <div class="basket__title">
-                                                <div class="basket__title-text">Total</div>
-                                                <div class="basket__title-total">$118</div>
-                                            </div>
-                                            <a class="basket__btn" href="#">Go to Cart</a>
-                                            <a class="basket__btn basket__btn-checkout" href="#">Go to Checkout</a>                                                
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="user__box">
-                                    <a class="user" href="#">
-                                        <div class="user__inner">
-                                            <div class="user__images">
-                                                <img src="images/content/user-login.jpg" alt="">
-                                            </div>
-                                            <div class="user__info">
-                                                <div class="user__name">Mike Hussy</div>
-                                                <div class="user__cash">$171.00</div>
-                                            </div>                                        
-                                        </div>
-                                    </a>
-                                    <div class="user__menu">
-                                        <ul>
-                                            <li><a class="angle-right" href="#">Portfolio</a></li>
-                                            <li><a class="angle-right" href="#">Profile Page</a></li>
-                                            <li><a class="angle-right" href="#">Account Setting</a></li>
-                                            <li><a class="angle-right" href="#">Downloads</a></li>
-                                            <li><a class="angle-right" href="#">Wishlist</a></li>
-                                            <li><a class="angle-right" href="#">Upload Item</a></li>
-                                            <li><a class="angle-right" href="#">Statement</a></li>
-                                            <li><a class="angle-right" href="#">Withdraws</a></li>
-                                        </ul>
-                                    </div>                                    
-                                </div>
-                                <a class="header__btn header__btn-login header__btn-login--off" href="#">login</a>
-                                <a class="header__btn header__btn-logout header__btn-login--on" href="#">logout</a>
-                                <a class="header__btn header__btn-register header__btn-login--off" href="#">Register</a>
-                            </div>
-                            <div class="header__btn-menu icon-user"></div>
-                        </div>
-                    </div>  
-                </div>
-                <div class="header__menu">
-                    <div class="container">
-                        <nav class="menu">
-                            <div class="menu__btn">
-                                <div></div>
-                                <div></div>
-                                <div></div>
-                            </div>
-                            <ul class="menu__list">
-                                <li><a href="#">Home</a></li>
-                                <li><a href="#">About</a></li>
-                                <li><a href="#">WordPress</a></li>
-                                <li><a href="#">Joomla</a></li>
-                                <li><a href="#">PSD</a></li>
-                                <li><a href="#">Plugins</a></li>
-                                <li><a href="#">Components</a></li>
-                                <li><a href="#">Pages</a></li>
-                                <li><a href="#">Contact</a></li>
-                                <li><a href="#">Help</a></li>
-                            </ul>
-                        </nav>
-                    </div>
-                </div>
-            </header>
-
-            <section class="search page-search" style="background-image: url(images/search-bg.jpg);">
-                <div class="container">
-                    <div class="search__inner">
-                        <div class="search__inner-text">
-                            Premium WordPress Themes, Web Templates and Many More ...
-                        </div>
-                        <div class="search__inner-form">
-                            <form>
-                                <input type="text" placeholder="Search Your Keywords . . ." required>
-                                <button type="submit">
-                                    <img src="images/icons/search.png" alt="">
-                                </button>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-            </section>
+            <?php include 'inc/search-section-cut.inc.php'; ?>
 
             <div class="beardcrumbs">
                 <div class="container">
@@ -244,7 +62,9 @@
                                 </div>
                                 <div class="aside__product-inner">
                                     <div class="product__item">
-                                        <a class="product__item-img" style="background-image: url(images/content/product-item.jpg);" href="#"></a>
+                                        <a class="product__item-img"
+                                            style="background-image: url(images/content/product-item.jpg);"
+                                            href="product-page.php"></a>
                                         <div class="product__item-content">
                                             <div class="product__item-name">
                                                 <a class="product__item-title" href="#">
@@ -260,16 +80,20 @@
                                         </div>
                                         <div class="product__item-info">
                                             <a class="product__item-author" href="#">
-                                                <div class="avatar" style="background-image: url(images/content/user.jpg);"></div>
-                                                <span>Radiustheme</span> 
+                                                <div class="avatar"
+                                                    style="background-image: url(images/content/user.jpg);"></div>
+                                                <span>Radiustheme</span>
                                             </a>
                                             <div class="product__item-star">
-                                                <div class="rate-star"></div><span class="product__item-starnum">(05)</span>
+                                                <div class="rate-star"></div><span
+                                                    class="product__item-starnum">(05)</span>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="product__item">
-                                        <a class="product__item-img" style="background-image: url(images/content/product-item.jpg);" href="#"></a>
+                                        <a class="product__item-img"
+                                            style="background-image: url(images/content/product-item.jpg);"
+                                            href="product-page.php"></a>
                                         <div class="product__item-content">
                                             <div class="product__item-name">
                                                 <a class="product__item-title" href="#">
@@ -285,16 +109,20 @@
                                         </div>
                                         <div class="product__item-info">
                                             <a class="product__item-author" href="#">
-                                                <div class="avatar" style="background-image: url(images/content/user.jpg);"></div>
-                                                <span>Radiustheme</span> 
+                                                <div class="avatar"
+                                                    style="background-image: url(images/content/user.jpg);"></div>
+                                                <span>Radiustheme</span>
                                             </a>
                                             <div class="product__item-star">
-                                                <div class="rate-star"></div><span class="product__item-starnum">(05)</span>
+                                                <div class="rate-star"></div><span
+                                                    class="product__item-starnum">(05)</span>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="product__item">
-                                        <a class="product__item-img" style="background-image: url(images/content/product-item.jpg);" href="#"></a>
+                                        <a class="product__item-img"
+                                            style="background-image: url(images/content/product-item.jpg);"
+                                            href="product-page.php"></a>
                                         <div class="product__item-content">
                                             <div class="product__item-name">
                                                 <a class="product__item-title" href="#">
@@ -310,14 +138,16 @@
                                         </div>
                                         <div class="product__item-info">
                                             <a class="product__item-author" href="#">
-                                                <div class="avatar" style="background-image: url(images/content/user.jpg);"></div>
-                                                <span>Radiustheme</span> 
+                                                <div class="avatar"
+                                                    style="background-image: url(images/content/user.jpg);"></div>
+                                                <span>Radiustheme</span>
                                             </a>
                                             <div class="product__item-star">
-                                                <div class="rate-star"></div><span class="product__item-starnum">(05)</span>
+                                                <div class="rate-star"></div><span
+                                                    class="product__item-starnum">(05)</span>
                                             </div>
                                         </div>
-                                    </div>                                    
+                                    </div>
                                 </div>
                                 <a href="#" class="top-sellers__link">View All</a>
                             </div>
@@ -326,7 +156,8 @@
                         <div class="product-page__content">
                             <div class="product-page__filter">
                                 <div class="product-page__filter-sort">
-                                    <button class="icon-sort-amount-desc"></button>Sort by: New Items<button class="icon-unsorted"></button>
+                                    <button class="icon-sort-amount-desc"></button>Sort by: New Items<button
+                                        class="icon-unsorted"></button>
                                 </div>
                                 <div>
                                     <button class="icon-th-large active"></button>
@@ -336,7 +167,8 @@
                             <div class="product-page__items">
 
                                 <div class="product__item product__items-list">
-                                    <a class="product__item-img" style="background-image: url(images/content/product-item.jpg);" href="#"></a>
+                                    <a class="product__item-img"
+                                        style="background-image: url(images/content/product-item.jpg);" href="product-page.php"></a>
                                     <div class="product__item-content">
                                         <div class="product__item-name">
                                             <a class="product__item-title" href="#">
@@ -346,7 +178,7 @@
                                                 Site Template
                                             </a>
                                             <div class="product__item-text">
-                                                Pimply dummy text of the printing and typesetting industry. 
+                                                Pimply dummy text of the printing and typesetting industry.
                                             </div>
                                         </div>
                                         <div class="product__item-price">
@@ -356,20 +188,22 @@
                                     </div>
                                     <div class="product__item-info">
                                         <a class="product__item-author" href="#">
-                                            <div class="avatar" style="background-image: url(images/content/user.jpg);"></div>
-                                            <span>Radiustheme</span> 
+                                            <div class="avatar" style="background-image: url(images/content/user.jpg);">
+                                            </div>
+                                            <span>Radiustheme</span>
                                         </a>
                                         <div class="product__item-star">
                                             <div class="rate-star"></div>(<span>05</span>)
                                         </div>
                                         <div class="product__item-list">
                                             <a class="icon-comment-o" href="#">(<span>10</span>)</a>
-                                            <div class="icon-heart-o">(<span>20</span>)</div>                                                
+                                            <div class="icon-heart-o">(<span>20</span>)</div>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="product__item product__items-list">
-                                    <a class="product__item-img" style="background-image: url(images/content/product-item.jpg);" href="#"></a>
+                                    <a class="product__item-img"
+                                        style="background-image: url(images/content/product-item.jpg);" href="product-page.php"></a>
                                     <div class="product__item-content">
                                         <div class="product__item-name">
                                             <a class="product__item-title" href="#">
@@ -379,7 +213,7 @@
                                                 Site Template
                                             </a>
                                             <div class="product__item-text">
-                                                Pimply dummy text of the printing and typesetting industry. 
+                                                Pimply dummy text of the printing and typesetting industry.
                                             </div>
                                         </div>
                                         <div class="product__item-price">
@@ -389,20 +223,22 @@
                                     </div>
                                     <div class="product__item-info">
                                         <a class="product__item-author" href="#">
-                                            <div class="avatar" style="background-image: url(images/content/user.jpg);"></div>
-                                            <span>Radiustheme</span> 
+                                            <div class="avatar" style="background-image: url(images/content/user.jpg);">
+                                            </div>
+                                            <span>Radiustheme</span>
                                         </a>
                                         <div class="product__item-star">
                                             <div class="rate-star"></div>(<span>05</span>)
                                         </div>
                                         <div class="product__item-list">
                                             <a class="icon-comment-o" href="#">(<span>10</span>)</a>
-                                            <div class="icon-heart-o">(<span>20</span>)</div>                                                
+                                            <div class="icon-heart-o">(<span>20</span>)</div>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="product__item product__items-list">
-                                    <a class="product__item-img" style="background-image: url(images/content/product-item.jpg);" href="#"></a>
+                                    <a class="product__item-img"
+                                        style="background-image: url(images/content/product-item.jpg);" href="product-page.php"></a>
                                     <div class="product__item-content">
                                         <div class="product__item-name">
                                             <a class="product__item-title" href="#">
@@ -412,7 +248,7 @@
                                                 Site Template
                                             </a>
                                             <div class="product__item-text">
-                                                Pimply dummy text of the printing and typesetting industry. 
+                                                Pimply dummy text of the printing and typesetting industry.
                                             </div>
                                         </div>
                                         <div class="product__item-price">
@@ -422,20 +258,22 @@
                                     </div>
                                     <div class="product__item-info">
                                         <a class="product__item-author" href="#">
-                                            <div class="avatar" style="background-image: url(images/content/user.jpg);"></div>
-                                            <span>Radiustheme</span> 
+                                            <div class="avatar" style="background-image: url(images/content/user.jpg);">
+                                            </div>
+                                            <span>Radiustheme</span>
                                         </a>
                                         <div class="product__item-star">
                                             <div class="rate-star"></div>(<span>05</span>)
                                         </div>
                                         <div class="product__item-list">
                                             <a class="icon-comment-o" href="#">(<span>10</span>)</a>
-                                            <div class="icon-heart-o">(<span>20</span>)</div>                                                
+                                            <div class="icon-heart-o">(<span>20</span>)</div>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="product__item product__items-list">
-                                    <a class="product__item-img" style="background-image: url(images/content/product-item.jpg);" href="#"></a>
+                                    <a class="product__item-img"
+                                        style="background-image: url(images/content/product-item.jpg);" href="product-page.php"></a>
                                     <div class="product__item-content">
                                         <div class="product__item-name">
                                             <a class="product__item-title" href="#">
@@ -445,7 +283,7 @@
                                                 Site Template
                                             </a>
                                             <div class="product__item-text">
-                                                Pimply dummy text of the printing and typesetting industry. 
+                                                Pimply dummy text of the printing and typesetting industry.
                                             </div>
                                         </div>
                                         <div class="product__item-price">
@@ -455,20 +293,22 @@
                                     </div>
                                     <div class="product__item-info">
                                         <a class="product__item-author" href="#">
-                                            <div class="avatar" style="background-image: url(images/content/user.jpg);"></div>
-                                            <span>Radiustheme</span> 
+                                            <div class="avatar" style="background-image: url(images/content/user.jpg);">
+                                            </div>
+                                            <span>Radiustheme</span>
                                         </a>
                                         <div class="product__item-star">
                                             <div class="rate-star"></div>(<span>05</span>)
                                         </div>
                                         <div class="product__item-list">
                                             <a class="icon-comment-o" href="#">(<span>10</span>)</a>
-                                            <div class="icon-heart-o">(<span>20</span>)</div>                                                
+                                            <div class="icon-heart-o">(<span>20</span>)</div>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="product__item product__items-list">
-                                    <a class="product__item-img" style="background-image: url(images/content/product-item.jpg);" href="#"></a>
+                                    <a class="product__item-img"
+                                        style="background-image: url(images/content/product-item.jpg);" href="product-page.php"></a>
                                     <div class="product__item-content">
                                         <div class="product__item-name">
                                             <a class="product__item-title" href="#">
@@ -478,7 +318,7 @@
                                                 Site Template
                                             </a>
                                             <div class="product__item-text">
-                                                Pimply dummy text of the printing and typesetting industry. 
+                                                Pimply dummy text of the printing and typesetting industry.
                                             </div>
                                         </div>
                                         <div class="product__item-price">
@@ -488,20 +328,22 @@
                                     </div>
                                     <div class="product__item-info">
                                         <a class="product__item-author" href="#">
-                                            <div class="avatar" style="background-image: url(images/content/user.jpg);"></div>
-                                            <span>Radiustheme</span> 
+                                            <div class="avatar" style="background-image: url(images/content/user.jpg);">
+                                            </div>
+                                            <span>Radiustheme</span>
                                         </a>
                                         <div class="product__item-star">
                                             <div class="rate-star"></div>(<span>05</span>)
                                         </div>
                                         <div class="product__item-list">
                                             <a class="icon-comment-o" href="#">(<span>10</span>)</a>
-                                            <div class="icon-heart-o">(<span>20</span>)</div>                                                
+                                            <div class="icon-heart-o">(<span>20</span>)</div>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="product__item product__items-list">
-                                    <a class="product__item-img" style="background-image: url(images/content/product-item.jpg);" href="#"></a>
+                                    <a class="product__item-img"
+                                        style="background-image: url(images/content/product-item.jpg);" href="product-page.php"></a>
                                     <div class="product__item-content">
                                         <div class="product__item-name">
                                             <a class="product__item-title" href="#">
@@ -511,7 +353,7 @@
                                                 Site Template
                                             </a>
                                             <div class="product__item-text">
-                                                Pimply dummy text of the printing and typesetting industry. 
+                                                Pimply dummy text of the printing and typesetting industry.
                                             </div>
                                         </div>
                                         <div class="product__item-price">
@@ -521,20 +363,22 @@
                                     </div>
                                     <div class="product__item-info">
                                         <a class="product__item-author" href="#">
-                                            <div class="avatar" style="background-image: url(images/content/user.jpg);"></div>
-                                            <span>Radiustheme</span> 
+                                            <div class="avatar" style="background-image: url(images/content/user.jpg);">
+                                            </div>
+                                            <span>Radiustheme</span>
                                         </a>
                                         <div class="product__item-star">
                                             <div class="rate-star"></div>(<span>05</span>)
                                         </div>
                                         <div class="product__item-list">
                                             <a class="icon-comment-o" href="#">(<span>10</span>)</a>
-                                            <div class="icon-heart-o">(<span>20</span>)</div>                                                
+                                            <div class="icon-heart-o">(<span>20</span>)</div>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="product__item product__items-list">
-                                    <a class="product__item-img" style="background-image: url(images/content/product-item.jpg);" href="#"></a>
+                                    <a class="product__item-img"
+                                        style="background-image: url(images/content/product-item.jpg);" href="product-page.php"></a>
                                     <div class="product__item-content">
                                         <div class="product__item-name">
                                             <a class="product__item-title" href="#">
@@ -544,7 +388,7 @@
                                                 Site Template
                                             </a>
                                             <div class="product__item-text">
-                                                Pimply dummy text of the printing and typesetting industry. 
+                                                Pimply dummy text of the printing and typesetting industry.
                                             </div>
                                         </div>
                                         <div class="product__item-price">
@@ -554,20 +398,22 @@
                                     </div>
                                     <div class="product__item-info">
                                         <a class="product__item-author" href="#">
-                                            <div class="avatar" style="background-image: url(images/content/user.jpg);"></div>
-                                            <span>Radiustheme</span> 
+                                            <div class="avatar" style="background-image: url(images/content/user.jpg);">
+                                            </div>
+                                            <span>Radiustheme</span>
                                         </a>
                                         <div class="product__item-star">
                                             <div class="rate-star"></div>(<span>05</span>)
                                         </div>
                                         <div class="product__item-list">
                                             <a class="icon-comment-o" href="#">(<span>10</span>)</a>
-                                            <div class="icon-heart-o">(<span>20</span>)</div>                                                
+                                            <div class="icon-heart-o">(<span>20</span>)</div>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="product__item product__items-list">
-                                    <a class="product__item-img" style="background-image: url(images/content/product-item.jpg);" href="#"></a>
+                                    <a class="product__item-img"
+                                        style="background-image: url(images/content/product-item.jpg);" href="product-page.php"></a>
                                     <div class="product__item-content">
                                         <div class="product__item-name">
                                             <a class="product__item-title" href="#">
@@ -577,7 +423,7 @@
                                                 Site Template
                                             </a>
                                             <div class="product__item-text">
-                                                Pimply dummy text of the printing and typesetting industry. 
+                                                Pimply dummy text of the printing and typesetting industry.
                                             </div>
                                         </div>
                                         <div class="product__item-price">
@@ -587,20 +433,22 @@
                                     </div>
                                     <div class="product__item-info">
                                         <a class="product__item-author" href="#">
-                                            <div class="avatar" style="background-image: url(images/content/user.jpg);"></div>
-                                            <span>Radiustheme</span> 
+                                            <div class="avatar" style="background-image: url(images/content/user.jpg);">
+                                            </div>
+                                            <span>Radiustheme</span>
                                         </a>
                                         <div class="product__item-star">
                                             <div class="rate-star"></div>(<span>05</span>)
                                         </div>
                                         <div class="product__item-list">
                                             <a class="icon-comment-o" href="#">(<span>10</span>)</a>
-                                            <div class="icon-heart-o">(<span>20</span>)</div>                                                
+                                            <div class="icon-heart-o">(<span>20</span>)</div>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="product__item product__items-list">
-                                    <a class="product__item-img" style="background-image: url(images/content/product-item.jpg);" href="#"></a>
+                                    <a class="product__item-img"
+                                        style="background-image: url(images/content/product-item.jpg);" href="product-page.php"></a>
                                     <div class="product__item-content">
                                         <div class="product__item-name">
                                             <a class="product__item-title" href="#">
@@ -610,7 +458,7 @@
                                                 Site Template
                                             </a>
                                             <div class="product__item-text">
-                                                Pimply dummy text of the printing and typesetting industry. 
+                                                Pimply dummy text of the printing and typesetting industry.
                                             </div>
                                         </div>
                                         <div class="product__item-price">
@@ -620,20 +468,22 @@
                                     </div>
                                     <div class="product__item-info">
                                         <a class="product__item-author" href="#">
-                                            <div class="avatar" style="background-image: url(images/content/user.jpg);"></div>
-                                            <span>Radiustheme</span> 
+                                            <div class="avatar" style="background-image: url(images/content/user.jpg);">
+                                            </div>
+                                            <span>Radiustheme</span>
                                         </a>
                                         <div class="product__item-star">
                                             <div class="rate-star"></div>(<span>05</span>)
                                         </div>
                                         <div class="product__item-list">
                                             <a class="icon-comment-o" href="#">(<span>10</span>)</a>
-                                            <div class="icon-heart-o">(<span>20</span>)</div>                                                
+                                            <div class="icon-heart-o">(<span>20</span>)</div>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="product__item product__items-list">
-                                    <a class="product__item-img" style="background-image: url(images/content/product-item.jpg);" href="#"></a>
+                                    <a class="product__item-img"
+                                        style="background-image: url(images/content/product-item.jpg);" href="product-page.php"></a>
                                     <div class="product__item-content">
                                         <div class="product__item-name">
                                             <a class="product__item-title" href="#">
@@ -643,7 +493,7 @@
                                                 Site Template
                                             </a>
                                             <div class="product__item-text">
-                                                Pimply dummy text of the printing and typesetting industry. 
+                                                Pimply dummy text of the printing and typesetting industry.
                                             </div>
                                         </div>
                                         <div class="product__item-price">
@@ -653,20 +503,22 @@
                                     </div>
                                     <div class="product__item-info">
                                         <a class="product__item-author" href="#">
-                                            <div class="avatar" style="background-image: url(images/content/user.jpg);"></div>
-                                            <span>Radiustheme</span> 
+                                            <div class="avatar" style="background-image: url(images/content/user.jpg);">
+                                            </div>
+                                            <span>Radiustheme</span>
                                         </a>
                                         <div class="product__item-star">
                                             <div class="rate-star"></div>(<span>05</span>)
                                         </div>
                                         <div class="product__item-list">
                                             <a class="icon-comment-o" href="#">(<span>10</span>)</a>
-                                            <div class="icon-heart-o">(<span>20</span>)</div>                                                
+                                            <div class="icon-heart-o">(<span>20</span>)</div>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="product__item product__items-list">
-                                    <a class="product__item-img" style="background-image: url(images/content/product-item.jpg);" href="#"></a>
+                                    <a class="product__item-img"
+                                        style="background-image: url(images/content/product-item.jpg);" href="product-page.php"></a>
                                     <div class="product__item-content">
                                         <div class="product__item-name">
                                             <a class="product__item-title" href="#">
@@ -676,7 +528,7 @@
                                                 Site Template
                                             </a>
                                             <div class="product__item-text">
-                                                Pimply dummy text of the printing and typesetting industry. 
+                                                Pimply dummy text of the printing and typesetting industry.
                                             </div>
                                         </div>
                                         <div class="product__item-price">
@@ -686,19 +538,19 @@
                                     </div>
                                     <div class="product__item-info">
                                         <a class="product__item-author" href="#">
-                                            <div class="avatar" style="background-image: url(images/content/user.jpg);"></div>
-                                            <span>Radiustheme</span> 
+                                            <div class="avatar" style="background-image: url(images/content/user.jpg);">
+                                            </div>
+                                            <span>Radiustheme</span>
                                         </a>
                                         <div class="product__item-star">
                                             <div class="rate-star"></div>(<span>05</span>)
                                         </div>
                                         <div class="product__item-list">
                                             <a class="icon-comment-o" href="#">(<span>10</span>)</a>
-                                            <div class="icon-heart-o">(<span>20</span>)</div>                                                
+                                            <div class="icon-heart-o">(<span>20</span>)</div>
                                         </div>
                                     </div>
                                 </div>
-                                
                             </div>
                             <div class="pagination">
                                 <ul class="pagination__list">
@@ -717,77 +569,15 @@
 
         </div>
 
-        <footer class="footer">
-            <div class="footer__content">
-                <div class="container">
-                    <div class="footer__inner">
-                        <div class="footer__col footer__col-adress">
-                            <div class="footer__col-title">About Company</div>
-                            <div class="footer__col-text">
-                                Praesent vel rutrum purus. Nam vel dui eu risus duis dignissim digniSuspen disse.Fusce sit amet urna iat.Praesent vel rutrum purus. 
-                            </div>
-                            <div class="footer__info">
-                                PO Box 16122 Collins Street West Victoria 8007 Australia
-                            </div>
-                            <a href="tel:61383766284" class="footer__info footer__info-phone">
-                                +61 3 8376 6284
-                            </a>
-                        </div>
-                        <div class="footer__col footer__col-menu">
-                            <div class="footer__col-title">Join Our Community </div>
-                            <ul class="footer__col-list">
-                                <li><a href="#">Home</a></li>
-                                <li><a href="#">Forums</a></li>
-                                <li><a href="#">Become an Author</a></li>
-                                <li><a href="#">Community Meetups</a></li>
-                                <li><a href="#">Become an Affiliate</a></li>
-                            </ul>
-                        </div>
-                        <div class="footer__col footer__col-menu">
-                            <div class="footer__col-title">Need Help?</div>
-                            <ul class="footer__col-list">
-                                <li><a href="#">Help Center</a></li>
-                                <li><a href="#">Foxtar Market Terms</a></li>
-                                <li><a href="#">Author Terms</a></li>
-                                <li><a href="#">Foxtar Licenses</a></li>
-                                <li><a href="#">Contact Us</a></li>
-                            </ul>
-                        </div>
-                        <div class="footer__col footer__col-social">
-                            <div class="footer__col-title">Follow Us On</div>
-                            <ul class="footer__social-link">
-                                <li><a class="link-facebook" href="#"></a></li>
-                                <li><a class="link-twitter" href="#"></a></li>
-                                <li><a class="link-youtube" href="#"></a></li>
-                                <li><a class="link-pinterest" href="#"></a></li>
-                                <li><a class="link-linledin" href="#"></a></li>
-                            </ul>
-                            <div class="footer__form">
-                                <div class="footer__form-title">
-                                    Newsletter Sign Up!
-                                </div>
-                                <form>
-                                    <input type="text" placeholder="E-mail Address">
-                                    <button type="submit"></button>
-                                </form>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="footer__copy">
-                <div class="container">
-                    <div class="footer__copy-text">
-                        © 2017 Foxtar market place. Trademarks and brands are the property of their respective owners.
-                    </div>
-                </div>
-            </div>
-        </footer>        
+        <?php include 'inc/footer.inc.php'; ?>
+
     </div>
 
+    <?php include 'inc/modal.inc.php';?>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="js/libs.min.js"></script>
     <script src="js/main.js"></script>
 </body>
+
 </html>
